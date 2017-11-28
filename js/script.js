@@ -15,7 +15,7 @@ link.addEventListener("click", function (evt) {
   popup.classList.add("modal-show");
   popup.classList.add("modal-window-fade");
   body.classList.add("fixed");
-  blur.style.display = 'block';
+  blur.style.display = "block";
 
       
   if (storage) {
@@ -32,7 +32,7 @@ close.addEventListener("click", function (evt) {
   popup.classList.remove("modal-error");
   popup.classList.remove("modal-window-fade");
   body.classList.remove("fixed");
-  blur.style.display = 'none';
+  blur.style.display = "none";
   name.focus();
 });
 
@@ -55,7 +55,7 @@ window.addEventListener("keydown", function (evt) {
       popup.classList.remove("modal-window-fade");
       popup.classList.remove("modal-error");
       body.classList.remove("fixed");
-      blur.style.display = 'none';
+      blur.style.display = "none";
     }
   }
 });
