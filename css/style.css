@@ -745,6 +745,13 @@ a.btn-slider {
 	word-wrap: break-word;
 }
 
+.ice-cream-title {
+	margin: 0;
+	font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
 .product-review {
 	position: absolute;
 	bottom: -75px;
@@ -762,6 +769,7 @@ a.btn-slider {
 }
 
 .button-product-view {
+	display: block;
 	padding: 12px 17px;
 	position: absolute;
 	bottom: 14px;
