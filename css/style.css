@@ -299,7 +299,7 @@ body > input {
 	margin-bottom: 10px;
 }
 
-.user-nav a {
+.user-nav-link {
 	color: white;
 	text-decoration: none;
 }
@@ -735,7 +735,7 @@ a.btn-slider {
 	margin: 0;
 }
 
-.catalog-item a {
+.product-link {
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: 500;
@@ -775,6 +775,16 @@ a.btn-slider {
 	bottom: 14px;
 	width: 212px;
 	height: 45px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.link-product-view {
+	display: block;
+	padding: 10px 20px;
+	width: 182px;
+	position: absolute;
+	bottom: 14px;
 	left: 50%;
 	transform: translate(-50%);
 }
@@ -1122,7 +1132,7 @@ p.seo-lead {
 	position: relative;
 }
 
-.map {
+.map-offline {
 	max-height: 430px;
 	background-color: #cee0c0;
 }

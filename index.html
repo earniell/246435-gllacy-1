@@ -36,7 +36,7 @@
                 </div>  
                 <ul class="user-nav">
                   <li class="search">
-                    <a href="#">
+                    <a class="user-nav-link" href="#">
                       <svg class="loupe-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px"
                         height="17px" viewBox="0 0 17 17" enable-background="new 0 0 17 17" xml:space="preserve">
                         <path class="svg-fill" fill="#FFFFFF" d="M16.958,15.527L11.75,10.32C12.533,9.247,13,7.93,13,6.5C13,2.91,10.09,0,6.5,0S0,2.91,0,6.5
@@ -55,7 +55,7 @@
                     </section>
                   </li>
                   <li class="login">
-                    <a href="#">
+                    <a class="user-nav-link" href="#">
                       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21px" height="19px" viewBox="0 0 21 19" enable-background="new 0 0 21 19" xml:space="preserve">
                         <polygon class="svg-fill" fill="#FFFFFF" points="6,14.875 12.917,9.5 6,4.125 6,7.042 -0.042,7.042 -0.042,11.959 6,11.959   "/>
                         <path class="svg-fill" fill="#FFFFFF" d="M18,0H5C3.9,0,3,0.9,3,2v2h2V2h13v15H5v-2H3v2c0,1.1,0.9,2,2,2h13c1.1,0,2-0.9,2-2V2C20,0.9,19.1,0,18,0z"/>
@@ -75,7 +75,7 @@
                           </p>
                           <div class="wrapper-restore">
                             <p>
-                              <button class="btn button-login">Войти</button>
+                              <button class="btn button-login" type="submit">Войти</button>
                             </p>
                             <ul class="restore">
                               <li><a class="restore-link" href="#">Забыли пароль?</a></li>
@@ -86,7 +86,7 @@
                       </section>
                   </li> 
                   <li class="basket">
-                    <a href="#">
+                    <a class="user-nav-link" href="#">
                       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21px" height="20px" viewBox="0 0 21 20" enable-background="new 0 0 21 20" xml:space="preserve">
                         <path class="svg-fill" fill="#FFFFFF" d="M5.657,2.031L5.422,0H0v2h3.64l1.5,13h13.988l1.699-12.969H5.657z M17.372,13H6.922L5.888,4.031h12.66
                           L17.372,13z"/>
@@ -150,10 +150,12 @@
                   <p>
                     <span class="price">310₽</span>
                     <span class="weight">/кг</span> 
-                  </p>                  
-                  <a href="#"><h3 class="ice-cream-title">Сливочное с апельсиновым джемом и цитрусовой стружкой</h3></a>
+                  </p>
+                  <h3 class="ice-cream-title">                  
+                    <a class="product-link" href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+                  </h3>
                   <div class="product-review">
-                    <a class="btn button-product-view">Быстрый просмотр</a>
+                    <a class="btn link-product-view" href="#">Быстрый просмотр</a>
                   </div>
               </li>
               <li class="catalog-item">
@@ -164,10 +166,12 @@
                       <span class="price">380₽</span>
                       <span class="weight">/кг</span>
                     </p> 
-                    <a href="#"><h3 class="ice-cream-title">Сливочно-кофейное с кусочками шоколада</h3></a>
+                    <h3 class="ice-cream-title">
+                      <a class="product-link" href="#">Сливочно-кофейное с кусочками шоколада</a>
+                    </h3>  
                   </div>  
                   <div class="product-review">
-                    <button class="btn button-product-view" type="button">Быстрый просмотр</button>
+                    <a class="btn link-product-view" href="#">Быстрый просмотр</a>
                   </div>
               </li>  
               <li class="catalog-item">
@@ -177,9 +181,11 @@
                     <span class="price">355₽</span>
                     <span class="weight">/кг</span> 
                   </p>
-                  <a href="#"><h3 class="ice-cream-title">Сливочно-клубничное с присыпкой из белого шоколада</h3></a>
+                  <h3 class="ice-cream-title">
+                    <a class="product-link" href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
+                  </h3>
                   <div class="product-review">
-                    <button class="btn button-product-view" type="button">Быстрый просмотр</button>
+                    <a class="btn link-product-view" href="#">Быстрый просмотр</a>
                   </div>  
               </li>
               <li class="catalog-item">
@@ -189,9 +195,11 @@
                     <span class="price">415₽</span>
                     <span class="weight">/кг</span> 
                   </p>
-                  <a href="#"><h3 class="ice-cream-title">Сливочное крем-брюле с карамельной подливкой</h3></a>
+                  <h3 class="ice-cream-title">  
+                    <a class="product-link" href="#">Сливочное крем-брюле с карамельной подливкой</a>
+                  </h3>
                   <div class="product-review">
-                    <button class="btn button-product-view" type="button">Быстрый просмотр</button>
+                    <a class="btn link-product-view" href="#">Быстрый просмотр</a>
                   </div>  
               </li>
             </ul> 
@@ -245,10 +253,13 @@
     </main>
     <section class="contacts">
       <h2 class="visually-hidden">Контакты и карта</h2>
-      <iframe src="https://yandex.ru/map-widget/v1/-/CBUrr6szLA" ></iframe> 
+      <article class="map-online">
+        <h2 class="visually-hidden">Карта онлайн</h2> 
+        <iframe src="https://yandex.ru/map-widget/v1/-/CBUrr6szLA" ></iframe>
+      </article> 
       <div class="map-wrapper">
-        <article class="map">
-          <h2 class="visually-hidden">Карта</h2>
+        <article class="map-offline">
+          <h2 class="visually-hidden">Карта оффлайн</h2>
             <img src="img/map.png" width="1200" height="425" alt="карта с адресом магазина ул. Большая Конюшенная 19/8">
         </article>
         <article class="feedback">
