@@ -10,10 +10,6 @@ body {
 	background-color: rgb(132, 157, 143);
 }
 
-body > input {
-	display: none;
-}
-
 .site-wrapper {
 	min-width: 1200px;
 	margin: 0 auto;
@@ -263,8 +259,7 @@ body > input {
 	padding-right: 15px;
 }
 
-.login a,
-.basket a {
+.user-nav-link {
 	display: flex;
 }
 
@@ -304,19 +299,21 @@ body > input {
 	text-decoration: none;
 }
 
-.user-nav > li:hover,
-.user-nav > li:focus {
-	background-color: white;
-}
-
-.user-nav > li:hover a,
-.user-nav > li:focus a {
-	color: black;
-}
-
 .user-nav > li:hover .svg-fill,
 .user-nav > li:focus .svg-fill {
 	fill: black;
+}
+
+.search:hover .user-nav-link,
+.login:hover .user-nav-link,
+.basket:hover .user-nav-link {
+	color: black;
+}
+
+.search:hover,
+.login:hover,
+.basket:hover {
+	background-color: white;
 }
 
 .search {
@@ -428,6 +425,10 @@ body > input {
 }
 
 /* SLIDER*/
+
+.slider-toggle {
+	display: none;
+}
 
 a.btn-slider {
 	padding: 10px 40px;
@@ -901,6 +902,11 @@ a.btn-slider {
 
 .pagination-prev {
 	margin-right: 15px;
+}
+
+.disabled-link {
+	opacity: 0.3;
+    pointer-events: none;
 }
 
 .pagination-prev svg {
@@ -1876,11 +1882,20 @@ div.flex-column:last-child {
 	z-index: 1;
 }
 
+.basket-content {
+	margin-bottom: 15px;
+}
+
+.basket-content a {
+	text-decoration: none;
+	color: #323232;
+}
+
 .basket-active {
 	background: #fff;
 }
 
-.basket-active a {
+.link-basket-active {
 	color: #000;
 }
 
@@ -1963,6 +1978,7 @@ div.flex-column:last-child {
 }
 
 .button-buy {
+	display: inline-block;
 	padding: 12px 15px;
 	border: none;
 }

@@ -83,7 +83,7 @@
                       </section>
                   </li> 
                   <li class="basket basket-active">
-                    <a class="user-nav-link" href="#">
+                    <a class="link-basket-active user-nav-link" href="#">
                       <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       width="21px" height="20px" viewBox="0 0 21 20" enable-background="new 0 0 21 20" xml:space="preserve">
                         <polygon fill="#E84D37" points="5.888,4.031 6.922,13 17.372,13 18.548,4.031 "/>
@@ -95,7 +95,7 @@
                       <span>2 товара</span>
                     </a>
                     <section class="modal modal-basket">
-                      <table>
+                      <table class="basket-content">
                         <tbody>
                           <tr class="basket-item-1">
                             <td>
@@ -127,15 +127,17 @@
                             <td>1,5 кг х <span>300 руб.</span></td>
                             <td>450 руб.</td>
                           </tr>
+                        </tbody>
+                        <tfoot>  
                           <tr>
                             <td class="total" colspan="5">
                               <b>Итого: 750 руб.</b>
                             </td>
                           </tr>
-                        </tbody>      
+                        </tfoot>      
                       </table>
                       <div class="button-basket">
-                      <button class="btn button-buy" type="submit">Оформить заказ</button>
+                      <a class="btn button-buy" href="#">Оформить заказ</a>
                       </div>
                     </section>
                   </li>
@@ -425,7 +427,7 @@
               </ul>
               <ul class="pagination-list">
                 <li class="pagination-prev">
-                  <a href="#prev">
+                  <a href="#prev" class="disabled-link">
                     <span class="visually-hidden">Назад</span>
                     <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       width="8px" height="12px" viewBox="0 0 8 12" enable-background="new 0 0 8 12" xml:space="preserve">
